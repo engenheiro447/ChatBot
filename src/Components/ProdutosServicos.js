@@ -229,9 +229,7 @@ const ProdutosServicos = () => {
 </div>
         </div>
 
-        <div style="font-family:Arial, Helvetica, sans-serif; background-color: #187899; text-align: center; width: 64px; height:32px; margin: 0 auto; color: #F1F1F1">
-            Dowloand
-        </div>
+    
         
 
 
