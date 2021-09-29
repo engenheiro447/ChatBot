@@ -40,7 +40,7 @@ const PrimeiroAcesso1 = () => {
 
            
             
-            <Link to="/boasvindas3" className={styles.text2}>
+            <Link to="/alterarsenha" className={styles.text2}>
               
             <div className={styles.button}>
                 <p>Começar a utilizar:</p>

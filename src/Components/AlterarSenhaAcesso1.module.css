@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700;1,800&display=swap');
+.esq{
+    width: 40%;
+    height: 100vh;
+    position:relative;
+    float: left;
+    background-color: #0E425F;
+    background-image: url("../Assets/AlterarSenha1/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dir{
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    width: 60%;
+    height: 100vh;
+    background-color: #F5F8FF;
+    position:relative;
+    float: left;
+}
+
+.logo{
+    width: min-content;
+    margin:0 auto;
+    margin-top: 32px;
+}
+
+.esq h3{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.controbo{
+    width: min-content;
+    margin:0 auto;
+    margin-top: 64px;
+}
+
+.onda{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.ondaesq{
+    background-image: url(../Assets/AlterarSenha1/ondaesq.svg);
+    background-size: contain;
+    width: 100%;
+    height: 12%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+}
+
+.conttext{
+    font-family: 'Open Sans', sans-serif;
+   
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.conttext h2{
+    color: #B86E3C;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.conttext p{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #A8AAA7;
+}
+
+.conttext p:last-child{
+    margin: 0;
+}
+
+.margin1{
+    margin-top: 32px;
+    
+}
+
+.campoform{
+    margin-top: 16px;
+}
+
+.userform{
+    width: 100%;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.userform:focus{
+    border:1px solid #B86E3C;
+}
+
+input,input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    color:#A2A2A2;
+    font-size: 15px;
+}
+
+.button{
+    background-color: #B86E3C;
+    width: 250px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding: 12px;
+    border-radius: 4px;  
+    transition: 1s; 
+}
+
+.button:hover{
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.25);
+    background-color: #853F11;
+  }
+
+.button p{
+    color: #E7E7E7;
+}
+
+.text2{
+    text-decoration: none;
+}
+
+.onda1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.onda2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.linha1{
+    position: absolute;
+    top: 0;
+    right: 64px;
+}

@@ -46,6 +46,7 @@ const Home = () => {
                    <div className={styles.icon}>
                         <User className={styles.iconuser}/>
                    </div>
+                   
                    <div className={styles.campoform}>
                        
                         <input type="text" className ={styles.userform} name="name" placeholder= "Insira o seu CPF"/>
