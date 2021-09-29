@@ -179,7 +179,7 @@ const ProdutosServicos = () => {
                 </tr>
 
                 <tr>
-                    <td className={styles.elementotable}></td>
+                    <td className={styles.elementotable}>as</td>
                     <td className={styles.elementotable}></td>
                     <td className={styles.elementotable}></td>
                     <td className={styles.elementotable}></td>
