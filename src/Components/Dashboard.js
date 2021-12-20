@@ -11,13 +11,18 @@ const Dashboard = () => {
     <>
        <Menusup/>
 
+        
         <div className={styles.container}>
-            <div className={styles.card}>
-                <div className={styles.perguntas}></div>
+            
+        <Link to="/perguntaserespostas" className={styles.text2}><div className={styles.card}>
+            <div className={styles.perguntas}></div>
                 <p>Perguntas e</p>
                 <p>respostas</p>
             </div>
-
+        </Link>
+        
+        
+        
             <Link to="/produtosservicos" className={styles.text2}> 
             <div className={styles.card}>
             <div className={styles.produtos}></div>

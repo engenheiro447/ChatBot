@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700;1,800&display=swap');
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    background-color: rgba(22, 22, 22, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 256px;
+    padding-right: 256px;
+    cursor: default;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 16px;
+    color: #1a1a1a;
+}
+
+.voltar{
+    margin-left:32px;
+    height: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+    width: max-content;
+  }
+
+.seta{
+    display: inline-block;
+}
+.textovoltar{
+    margin-left: 4px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;   
+   
+}
+.textPrincipal{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+label{
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.Nome{
+    display: block;
+    border: 1px solid #4E89AB;
+    height: 32px;
+    width: 300px;
+    border-radius: 4px;
+}
+form{
+    margin-top: 16px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.elemento{
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.arquivo{
+    width: 200px;
+}
+input[type=file]::-webkit-file-upload-button {
+    border: none;
+    font-size: 12px;
+    background: #4E89AB; 
+    color:white; 
+    padding: 4px; 
+    padding-left: 8px;
+    padding-right: 8px;
+ }
+
+ .preco{
+    display: block;
+    border: 1px solid #4E89AB;
+    height: 32px;
+    width: 80px;
+    border-radius: 4px;
+    text-align: center;
+ }
+
+ .elemento2{
+     margin-top: 16px;
+     margin-left: 0px;
+ } 
+ .elemento3{
+    margin-top: 16px;
+    margin-left: 0px;
+    display: inline-block;
+}
+.textarea{
+    display: block;
+    border: 1px solid #4E89AB;
+    height: 128px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #4E89AB;
+    
+}
+
+.button{
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 200px;
+    height: 32px;
+    background-color: #0E425F;
+    border-radius: 4px;
+    border:none;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 1s;  
+    display: block;
+
+}
+
+.button:hover{
+    background-color: #1E5778; 
+}

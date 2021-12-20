@@ -1,13 +1,53 @@
-import React from 'react'
+import React, {useState} from 'react';
 import styles from './ProdutosServicos.module.css';
 import Menusup from './Menusup';
 import {Link} from 'react-router-dom';
 import {ReactComponent as Seta} from '../Assets/Home/Seta.svg';
-
+import Modal from './ModalEditarProdutos';
+import Modal2 from './ModalAdicionarProdutos';
+import Modal4 from './modaleditarserv';
+import Modal5 from './ModalAdicionarservico';
 
 const ProdutosServicos = () => {
 
     document.body.style.backgroundColor = '#F5F8FF';
+    
+    const [isModalVisible, setIsModalVisible] = useState(false);
+    const [isModal2Visible, setIsModal2Visible] = useState(false);
+
+
+    const [isModal3Visible, setIsModal3Visible] = useState(false);
+
+
+    const [isModal4Visible, setIsModal4Visible] = useState(false);
+
+    const handleModalVisible = (isVisible)=>{
+        console.log(isVisible); 
+        setIsModalVisible(isVisible);
+    };
+
+
+    const handleModal2Visible = (isVisible)=>{
+        console.log(isVisible); 
+        setIsModal2Visible(isVisible);
+    };
+
+
+
+    const handleModal3Visible = (isVisible)=>{
+        console.log(isVisible); 
+        setIsModal3Visible(isVisible);
+    };
+
+
+    const handleModal4Visible = (isVisible)=>{
+        console.log(isVisible); 
+        setIsModal4Visible(isVisible);
+    };
+
+
+
+    
     return (
     <>
        <Menusup/>
@@ -27,15 +67,20 @@ const ProdutosServicos = () => {
             </div>
         </Link>
 
+
         <div className={styles.table}>
             <div className={styles.sup}>
                 <h2>Produtos</h2>
+                
 
                 <div className={styles.botoes}>
-                    <div className={styles.btn1 + ' ' + styles.btnedit}>
+                    <div className={styles.btn1 + ' ' + styles.btnedit} onClick={()=>handleModalVisible(true)}>
+                    
+                    
+
                         <p>Editar</p>
                     </div>
-                    <div className={styles.btn1+ ' ' + styles.btnadc}>
+                    <div className={styles.btn1+ ' ' + styles.btnadc} onClick={()=>handleModal2Visible(true)}>
                         <p>Adicionar Produto</p>
                     </div>
 
@@ -125,7 +170,25 @@ const ProdutosServicos = () => {
 
         </div>
 
+        {isModalVisible ? 
+                    (<Modal onClose = {()=> handleModalVisible(false)}>        
+        </Modal>): null}
 
+        {isModal2Visible ? 
+                    (<Modal2 onClose = {()=> handleModal2Visible(false)}>
+                    
+        </Modal2>): null}
+
+        {isModal3Visible ? 
+                    (<Modal4 onClose = {()=> handleModal3Visible(false)}>
+                    
+        </Modal4>): null}
+
+        {isModal4Visible ? 
+                    (<Modal5 onClose = {()=> handleModal4Visible(false)}>
+                    
+        </Modal5>): null}
+        
 
 
 
@@ -137,10 +200,10 @@ const ProdutosServicos = () => {
                 <h2>Serviços</h2>
 
                 <div className={styles.botoes}>
-                    <div className={styles.btn1 + ' ' + styles.btnedit}>
+                    <div className={styles.btn1 + ' ' + styles.btnedit} onClick={()=>handleModal3Visible(true)}>
                         <p>Editar</p>
                     </div>
-                    <div className={styles.btn1+ ' ' + styles.btnadc}>
+                    <div className={styles.btn1+ ' ' + styles.btnadc} onClick={()=>handleModal4Visible(true)}>
                         <p>Adicionar Produto</p>
                     </div>
 
@@ -179,7 +242,7 @@ const ProdutosServicos = () => {
                 </tr>
 
                 <tr>
-                    <td className={styles.elementotable}>as</td>
+                    <td className={styles.elementotable}></td>
                     <td className={styles.elementotable}></td>
                     <td className={styles.elementotable}></td>
                     <td className={styles.elementotable}></td>
@@ -223,8 +286,7 @@ const ProdutosServicos = () => {
                 </tr>
 
                 
-                
-              
+            
             </table>
 </div>
         </div>

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+.btnadicionar{
+    background-color: #B8D0E1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    width: max-content;
+    color: #8AA5B7;
+    border-radius: 4px;
+    position: absolute;
+    right: 180px;
+    top: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.text1{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 8px;
+    font-size: 25px;
+    text-align: center;
+    color: #B86E3C;
+    font-weight: 600;
+}
+
+.voltar{
+    margin-left:64px;
+    height: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+
+.seta{
+    display: inline-block;
+}
+.textovoltar{
+    margin-left: 4px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.tabela{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 16px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+table{
+    width: 100%;
+}
+
+
+.linha1table{
+    padding-top: 16px;
+}
+
+.title{
+    font-size: 22px;
+    color: #254456;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.coluna4{
+    font-size: 30px;
+    font-weight: 800;
+    color: #9DADB9;
+}
+
+.coluna1, .coluna2, .coluna3, .coluna4{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

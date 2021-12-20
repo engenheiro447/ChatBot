@@ -7,6 +7,7 @@ import PrimeiroAcesso3 from './Components/PrimeiroAcesso3';
 import AlterarSenhaAcesso1 from './Components/AlterarSenhaAcesso1';
 import Dashboard from './Components/Dashboard';
 import ProdutosServicos from './Components/ProdutosServicos';
+import PerguntaseRespostas from './Components/PerguntaseRespostas';
 
 export default ()=>{
 
@@ -32,6 +33,9 @@ export default ()=>{
             </Route>
             <Route exact path="/produtosservicos">
                 <ProdutosServicos/>
+            </Route>
+            <Route exact path="/perguntaserespostas">
+                <PerguntaseRespostas/>
             </Route>
 
 

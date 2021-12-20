@@ -42,13 +42,13 @@
     width: 90%;
     padding: 32px;
     padding-bottom: 0;
-    padding-top: 32px;
+    padding-top: 16px;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
 
 .card{
-    width: 259px;
+    width: 249px;
     margin-right: 32px;
     margin-bottom: 32px;
     height: 180px;
